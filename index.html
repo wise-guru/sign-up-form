@@ -8,12 +8,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bgImage">
-        <img src="./images/linda-segerfeldt-oEcsvUfCr1c-unsplash.jpg" alt="Picture of dog in a hammock wearing sunglasses" class="dogImg">
+    <div class="container">
+        <div class="bgImage">
+            <img src="./images/linda-segerfeldt-oEcsvUfCr1c-unsplash.jpg" alt="Picture of dog in a hammock wearing sunglasses" class="dogImg">
+        </div>
+      
+        <form action="" method="" class="signup-form">
+            <div class="heading">
+                <h3>Sign up for the Rockin' Animals Newsletter here!</h3>
+            </div>
+    
+            <fieldset>
+                <div class="form-col-1">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+
+                <div class="form-col-1">
+                    <label for="email">
+                        <span>E-mail: </span>
+                    </label>
+                    <input type="email" name="email" id="email"
+                        placeholder="jane@example.com">
+                </div>
+
+                <div class="form-col-1">
+                    <label for="pwd">Password</label>
+                    <input type="password" name="password" id="pwd">
+                </div>
+
+                <div class="form-col-2">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+
+                <div class="form-col-2">
+                    <label for="number">Phone Number</label>
+                    <input type="tel" name="number" id="number">
+                </div>
+                <div class="form-col-2">
+                    <label for="pwd">Confirm Password</label>
+                    <input type="password" name="password" id="pwd">
+                </div>
+            </fieldset>
+            <div class="form-col-1">
+                <button>Create Account</button>
+            </div>
+        </form>
     </div>
-
-    <form>
-
-    </form>
 </body>
 </html>

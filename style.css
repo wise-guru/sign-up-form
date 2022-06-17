@@ -7,7 +7,11 @@ html, body {
     font-family:'Open Sans', sans-serif;
     font-size: 11pt;
     font-weight: 400;
-    color: #fff;
+
+}
+
+.container {
+    display: flex;
 }
 
 .dogImg { 
@@ -16,5 +20,45 @@ html, body {
 }
 
 .bgImage {
+    display: flex;
     text-align: left;
+}
+
+
+.form-col-1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.form-col-2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.form-col-1 button {
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background-color: #256c5d;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form-col-1 button:hover {
+    background-color: #2f8572;
+}
+
+.form-col-1 button:active {
+    background-color: #1d584c;
 }
