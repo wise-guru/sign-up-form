@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+    background: #fff;
+    font-family:'Open Sans', sans-serif;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #fff;
+}
+
+.dogImg { 
+    height: 100vh;
+    width: auto;
+}
+
+.bgImage {
+    text-align: left;
+}
