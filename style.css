@@ -4,26 +4,40 @@ html, body {
     margin: 0px;
     padding: 0px;
     background: #fff;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'comic Sans', sans-serif;
     font-size: 11pt;
     font-weight: 400;
+    color: #5D6063;
+    background-color: #EAEDF0;
+
+
+    height: 100vh;
+    width: 100vw;
 
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+  
 }
 
 .fields .container {
-    flex-direction: column;
-}
+    flex-direction: row;
+    flex-wrap: nowrap;
+  
+
+    
+} 
 
 fieldset {
+    box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.1);
+    border: none;
     display: flex;
     justify-content: space-around;
     gap: 8px;
+    background-color:  #F6F7F8;
 
 }
 
@@ -31,34 +45,44 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex:1;
+    align-items: center;
 }
 
 .form-col input {
     background-color: #FFFFFF;
     border: 1px solid #D6D9DC;
     border-radius: 3px;
-    width: 100%;
+    width: auto;
     padding: 7px;
-    font-size: 14px;
+    font-size: 22px;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+p small {
+    font-size: 0.5em;
 }
 
 .dogImg { 
-    height: 81vh;
-    width: auto;
-    display: flex;
+    height: auto;
+    width: 30vw;
+    
 }
 
-.bgImage {
+/* .bgImage {
     display: flex;
     text-align: left;
     flex-wrap: wrap;
-}
+} */
 
 
 .form-col {
     display: flex;
-    justify-content: flex-end;
+    justify-content: ;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 8px;
@@ -78,7 +102,7 @@ fieldset {
     cursor: pointer;
 }
 
-.form-col-1 button:hover {
+.form-col button:hover {
     background-color: #2f8572;
 }
 
@@ -122,6 +146,9 @@ input {
     outline: none;
 }
 
+fieldset {
+    border-radius: 3px;
+}
 .form-col input:focus {
     border: 1px solid #7eba63;
     box-shadow: none;
@@ -132,4 +159,15 @@ input {
     box-shadow: none;
 }
 
-.form-col in
+@font-face {
+    font-family: 'norse';
+    src: url(Norse-Bold.otf);
+}
+
+.login a {
+    color:#1d584c;
+}
+
+.login a:hover {
+    color: #2f8572;
+}
