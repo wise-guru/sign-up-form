@@ -12,6 +12,12 @@ html, body {
 
 .container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fields .container {
+    flex-direction: column;
 }
 
 fieldset {
@@ -19,6 +25,13 @@ fieldset {
     justify-content: space-around;
     gap: 8px;
 
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .form-col input {
@@ -33,11 +46,13 @@ fieldset {
 .dogImg { 
     height: 81vh;
     width: auto;
+    display: flex;
 }
 
 .bgImage {
     display: flex;
     text-align: left;
+    flex-wrap: wrap;
 }
 
 
@@ -102,3 +117,19 @@ a {
     color: white;
     text-decoration: none;
 }
+
+input {
+    outline: none;
+}
+
+.form-col input:focus {
+    border: 1px solid #7eba63;
+    box-shadow: none;
+}
+
+.form-col input:required:focus:invalid, input[type='email']:invalid {
+    border: 1px solid #D55C5F;
+    box-shadow: none;
+}
+
+.form-col in
