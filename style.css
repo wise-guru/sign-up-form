@@ -69,7 +69,7 @@ p small {
 
 .dogImg { 
     height: auto;
-    width: 30vw;
+    width: 29vw;
     
 }
 
@@ -82,7 +82,6 @@ p small {
 
 .form-col {
     display: flex;
-    justify-content: ;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 8px;
@@ -121,7 +120,7 @@ p small {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 32px;;
+    padding: 32px;
 }
 
 .footer {
@@ -141,6 +140,7 @@ a {
     color: white;
     text-decoration: none;
 }
+
 
 input {
     outline: none;
