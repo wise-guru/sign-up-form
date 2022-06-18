@@ -14,6 +14,22 @@ html, body {
     display: flex;
 }
 
+fieldset {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+
+}
+
+.form-col input {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
 .dogImg { 
     height: 81vh;
     width: auto;
@@ -25,7 +41,7 @@ html, body {
 }
 
 
-.form-col-1 {
+.form-col {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -33,15 +49,7 @@ html, body {
     padding: 8px;
 }
 
-.form-col-2 {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 8px;
-}
-
-.form-col-1 button {
+.form-col button {
     font-size: 16px;
     font-weight: bold;
 
@@ -74,7 +82,7 @@ html, body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 32px;
+    padding: 32px;;
 }
 
 .footer {
