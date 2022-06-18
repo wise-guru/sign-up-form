@@ -9,11 +9,11 @@ html, body {
     font-weight: 400;
     color: #5D6063;
     background-color: #EAEDF0;
+}
 
-
+body {
     height: 100vh;
     width: 100vw;
-
 }
 
 .container {
@@ -68,16 +68,26 @@ p small {
 }
 
 .dogImg { 
-    height: auto;
+    height: 100%;
     width: 29vw;
     
 }
 
-/* .bgImage {
+#banner {
     display: flex;
-    text-align: left;
-    flex-wrap: wrap;
-} */
+    position: absolute;
+    top: 25%;
+    width: 98%;
+    font-size: 36px;
+    color: white;
+    height: 15%;
+    
+    align-items: center;
+
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: space-around;
+}
 
 
 .form-col {
@@ -121,6 +131,7 @@ p small {
     display: flex;
     justify-content: space-between;
     padding: 32px;
+    
 }
 
 .footer {
@@ -159,15 +170,21 @@ fieldset {
     box-shadow: none;
 }
 
-@font-face {
-    font-family: 'norse';
-    src: url(Norse-Bold.otf);
-}
-
 .login a {
     color:#1d584c;
 }
 
 .login a:hover {
     color: #2f8572;
+}
+
+.bgImage {
+    position: relative;
+
+}
+
+.header-logo.bg {
+    position: ;
+    top: 33%;
+    left: 70%;
 }
