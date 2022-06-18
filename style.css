@@ -15,7 +15,7 @@ html, body {
 }
 
 .dogImg { 
-    height: 100vh;
+    height: 81vh;
     width: auto;
 }
 
@@ -61,4 +61,36 @@ html, body {
 
 .form-col-1 button:active {
     background-color: #1d584c;
+}
+
+.header-logo {
+    margin-top: -10px;
+    height: 45px;
+    width: 60px;
+}
+
+.header, .footer {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
