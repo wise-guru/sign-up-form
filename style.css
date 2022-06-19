@@ -187,3 +187,9 @@ fieldset {
     top: 33%;
     left: 70%;
 }
+
+.credit {
+    top: 90%;
+    position: absolute;
+    left: 20%;
+}
